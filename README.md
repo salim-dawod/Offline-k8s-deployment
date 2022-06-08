@@ -1,3 +1,3 @@
-# Deploy K8s Cluster using Kubeadm on whithout internet connection
+# Deploy K8s Cluster using Kubeadm on without internet connection
 
 Deployed on Ubuntu 20:04 platform.
