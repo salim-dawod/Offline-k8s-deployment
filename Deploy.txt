@@ -90,7 +90,7 @@ scp -r docker k8s-tools images flannel soc-conn USERNAME@OFFLINE_IP_SERVER:/home
 //System Requirements
 sudo swapoff -a
 
-sudo vim /etc/fstab  =====>> Set # on swap line
+sudo vim /etc/fstab  =====>> Comment Swap line with # 
 
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
@@ -188,9 +188,6 @@ kubectl taint nodes --all node-role.kubernetes.io/control-plane- node-role.kuber
 
 //Configure Flannel
 cd flannel/
-kubectl patch node $(hostname) -p '{"spec":{"podCIDR":"10.100.0.1/24"}}'
+kubectl patch node $(hostname) -p '{"spec":{"podCIDR":"10.100.0.1/24"}}'        
 kubectl apply -f kube-flannel.yml
 
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------
