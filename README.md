@@ -29,13 +29,21 @@ conntrack v1.4.5-2
 # References and useful resources
 
 https://docs.docker.com/engine/install/ubuntu/#install-from-a-package
+
 https://unix.stackexchange.com/a/181538
+
 https://computingforgeeks.com/install-mirantis-cri-dockerd-as-docker-engine-shim-for-kubernetes/
+
 https://github.com/flannel-io/flannel/issues/1344#issuecomment-867265435
+
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 https://kubernetes.io/docs/setup/production-environment/container-runtimes/
+
 https://gist.github.com/jgsqware/6595126e17afc6f187666b0296ea0723
+
 https://github.com/flannel-io/flannel#deploying-flannel-manually
 
 
