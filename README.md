@@ -22,7 +22,7 @@ coredns:v1.8.6
 
 socat v1.7.3.1-2, conntrack v1.4.5-2
 
-**References
+# References
 
 https://docs.docker.com/engine/install/ubuntu/#install-from-a-package
 
