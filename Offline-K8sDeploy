@@ -19,7 +19,7 @@ wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/dock
 
 
 visit and get a release: https://github.com/Mirantis/cri-dockerd/releases
-wget https://github.com/Mirantis/cri-dockerd/releases/download/v${VER}/cri-dockerd-${VER}.amd64.tgz
+wget https://github.com/Mirantis/cri-dockerd/releases/download/v0.2.1/cri-dockerd-0.2.1.amd64.tgz
 wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/systemd/cri-docker.service
 wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/systemd/cri-docker.socket
 
