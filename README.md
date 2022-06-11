@@ -22,6 +22,32 @@ coredns:v1.8.6
 
 socat v1.7.3.1-2, conntrack v1.4.5-2
 
+**References
+
+https://docs.docker.com/engine/install/ubuntu/#install-from-a-package
+
+https://unix.stackexchange.com/a/181538
+
+https://computingforgeeks.com/install-mirantis-cri-dockerd-as-docker-engine-shim-for-kubernetes/
+
+https://packages.debian.org/stretch/amd64/socat/download
+
+https://ubuntu.pkgs.org/20.04/ubuntu-main-amd64/conntrack_1.4.5-2_amd64.deb.html
+
+https://github.com/flannel-io/flannel/issues/1344#issuecomment-867265435
+
+https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
+https://kubernetes.io/docs/setup/production-environment/container-runtimes/
+
+https://gist.github.com/jgsqware/6595126e17afc6f187666b0296ea0723
+
+https://github.com/flannel-io/flannel#deploying-flannel-manually
+
 
 
 
