@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install git wget curl
 ```
 
-### Install docker
+### Getting Docker packages
 
 https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/
 
@@ -26,7 +26,7 @@ wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/dock
 wget https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/docker-scan-plugin_0.9.0~ubuntu-focal_amd64.deb
 ```
 
-### Install cri-docekrd package
+### Getting cri-docekrd package
 
 https://github.com/Mirantis/cri-dockerd/releases
 
@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/sys
 wget https://raw.githubusercontent.com/Mirantis/cri-dockerd/master/packaging/systemd/cri-docker.socket
 cd ..
 ```
-### Install CNI plugin, crictl, kubeadm, kubelet and kubectl
+### Getting CNI plugin, crictl, kubeadm, kubelet and kubectl
 
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#k8s-install-2
 
@@ -87,14 +87,14 @@ docker save rancher/mirrored-flannelcni-flannel -o flannel.tar
 docker save rancher/mirrored-flannelcni-flannel-cni-plugin -o flannelcni.tar
 cd ..
 ```
-### Get Flannel configuration
+### Getting Flannel configuration
 
 ```
 mkdir flannel && cd flannel
 wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flanne
 cd ..
 ```
-### Install conntrack and socat for kubeadm
+### Getting conntrack and socat for kubeadm
 
 ```
 mkdir soc-conn && cd soc-conn
