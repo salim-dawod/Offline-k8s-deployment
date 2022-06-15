@@ -89,6 +89,8 @@ cd ..
 ```
 ### Getting Flannel configuration
 
+https://github.com/flannel-io/flannel.git
+
 ```
 mkdir flannel && cd flannel
 wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
