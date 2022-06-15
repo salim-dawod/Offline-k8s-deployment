@@ -91,7 +91,7 @@ cd ..
 
 ```
 mkdir flannel && cd flannel
-wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flanne
+wget https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
 cd ..
 ```
 ### Getting conntrack and socat for kubeadm
