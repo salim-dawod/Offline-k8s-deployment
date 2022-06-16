@@ -67,8 +67,8 @@ docker pull k8s.gcr.io/pause:3.7
 docker pull k8s.gcr.io/pause:3.6
 docker pull k8s.gcr.io/etcd:3.5.3-0
 docker pull k8s.gcr.io/coredns/coredns:v1.8.6
-docker pull rancher/mirrored-flannelcni-flannel
-docker pull rancher/mirrored-flannelcni-flannel-cni-plugin
+docker pull rancher/mirrored-flannelcni-flannel:v0.18.1
+docker pull rancher/mirrored-flannelcni-flannel-cni-plugin:v1.1.0
 ```
 
 ### Save docker images on Images Folder
