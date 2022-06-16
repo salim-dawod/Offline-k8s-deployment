@@ -223,6 +223,11 @@ sudo kubeadm init --cri-socket /run/cri-dockerd.sock
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+Alternatively, if you are the root user, you can run:
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
+
 ```
 ### To be able to deploy pods on master node enable:
 
